@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background changer</title>
+    <style>
+        img{
+            height: 300px;
+            width: 100%;
+            object-fit:cover;
+            
+        }
+        h1{
+            text-align: center;
+        }
+        p{
+            text-align: justify;
+        }
+        .btn{
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            border-radius: 50%;
+        }
+        #green{
+            background-color: green;
+        }
+        #black{
+            background-color: black;
+        }
+        #red{
+            background-color: red;
+        }
+        #blue{
+            background-color: blue;
+        }
+        #brown{
+            background-color: brown;
+        }
+        #color-switcher{
+            text-align: right;
+        }
+        #p{
+            color: aliceblue;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>About us</h1>
+    <div id="color-switcher">
+        <span class="btn" id="green" onclick="changebg('green')"></span>
+        <span class="btn" id="black" onclick="changebg('black')"></span>
+        <span class="btn" id="red" onclick="changebg('red')"></span>
+        <span class="btn" id="blue" onclick="changebg('blue')"></span>
+        <span class="btn" id="brown" onclick="changebg('brown')"></span>
+    </div>
+    <img src=https://plus.unsplash.com/premium_photo-1672116453187-3aa64afe04ad?q=80&w=1738&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="">
+<p id="p">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed et, blanditiis voluptas, sequi ducimus soluta, ipsam quia itaque vitae repellat labore similique doloribus earum adipisci dignissimos. Vel quis dicta quam!
+    Magnam labore asperiores necessitatibus rerum laudantium magni fugit reprehenderit cum cumque earum ad voluptates eum velit dolorem maiores, quibusdam beatae provident maxime nisi? Qui suscipit est delectus ipsum repudiandae modi!
+    Sed, id iste necessitatibus dolorum aliquam, eius voluptates quisquam totam corporis voluptatem voluptatibus laboriosam corrupti possimus cumque asperiores animi libero ex vero. Quo labore ex mollitia aliquid aliquam placeat eveniet!
+    Aliquid quasi, at perspiciatis eveniet dolore voluptatibus suscipit pariatur quis numquam ut distinctio modi repellendus, rem aspernatur magni nemo cum odit dolores. Eveniet, repellendus mollitia? Possimus eos deleniti consectetur? Iure!
+    Labore, reprehenderit illo eaque minima rem, illum officiis delectus obcaecati quam odit deleniti. Perspiciatis, dolore? Dignissimos adipisci magnam dolorem dolore, beatae quia expedita aspernatur neque minima aliquid harum doloribus soluta.
+    In, doloremque mollitia necessitatibus nobis distinctio esse natus dolores officiis. Reprehenderit harum architecto tempore sed labore atque quod. Magnam iste aperiam alias dolor tempora delectus aliquid suscipit doloribus ipsam fugit?
+    Ipsam voluptates repudiandae ducimus quas voluptatem nulla eos quis, sapiente nesciunt rem doloremque aliquid atque? Molestias, at. Amet, ad. Suscipit labore cupiditate facilis minima eius sunt hic quos laudantium voluptatum.
+    Distinctio, alias sint ducimus enim accusamus iste. Eum tempore accusamus dolorum vitae magnam facilis eos nihil nam repellat enim, atque iste eaque ad. Quo, nostrum nobis rerum et corrupti asperiores?
+    Ut, laudantium quibusdam quam alias repudiandae perferendis dicta sapiente odit, odio voluptatem dolores corporis consectetur voluptatibus aliquam veniam aut accusantium cupiditate. Dolorum facere explicabo non dolorem consectetur. Facere, voluptates amet.
+    Ex architecto perferendis consequuntur deleniti rerum accusamus, iusto optio nam veritatis fugiat molestias distinctio numquam tenetur dolore modi, unde earum? Deleniti tempore consequuntur, odio vitae dolores atque fugit esse. Fuga.
+</p>
+</body>
+
+<script>
+    function changebg(color){
+        document.body.style.backgroundColor = color
+    }
+</script>
+</html>
